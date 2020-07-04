@@ -1,10 +1,13 @@
 import React from "react";
 import Button from "../../components/Button/Button";
 
+function handleChange() {
+    alert`succes`;
+}
 function Home() {
     return (
         <div>
-            <Button pink="" value="Click Me" />
+            <Button function={handleChange} value="Click Me >" />
         </div>
     );
 }
